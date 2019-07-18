@@ -1,4 +1,4 @@
-FROM golang:1.12.6-stretch
+FROM golang:1.12.7-stretch
 
 RUN apt-get update && \
     apt-get -y --no-install-recommends install git make && \
